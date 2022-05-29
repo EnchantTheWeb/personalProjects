@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}       
+.clear {
+    clear: both;
+}
+.hidden{
+    display: none;
+}
+body{
+    text-align: center;
+    font-family: 'Playfair', sans-serif;
+    font-size: 60px;
+    color: red;
+    background-color: black;
+}
+header{
+    width: 100%;
+}
+div{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#scorpion{
+    background-image: url(https://i.ibb.co/Kj3dz0m/written-Scorpion.jpg);
+    border-radius: 25%;
+    border: red 1px solid;
+}
+#kitana{
+    background-image: url(https://i.ibb.co/68zL36z/written-Kitana.jpg);
+    border-radius: 25%;
+    border: red 1px solid;
+}
+#raiden{
+    background-image: url(https://i.ibb.co/YkyFvrd/written-Raiden.jpg);
+    border-radius: 25%;
+    border: red 1px solid;
+}
+#smoke{
+    background-image: url(https://i.ibb.co/fpM9yYV/written-Smoke.jpg);
+    border-radius: 25%;
+    border: red 1px solid;
+}
+main{
+    margin: 5% auto;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    border: 2px red solid;
+    align-items: center;
+}
